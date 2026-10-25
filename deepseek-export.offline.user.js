@@ -2,7 +2,7 @@
 // @name         DeepSeek 对话导出助手（单条导出 / 纯文本复制 / 多格式下载）
 // @name:en      DeepSeek Chat Export Assistant
 // @namespace    https://github.com/xubbllanan-lab/deepseek-export-assistant
-// @version      5.7.10
+// @version      5.7.11
 // @description  接口级数据提取（用户提问 100% 准确），整段对话一键复制纯文本 / 下载 TXT·MD·HTML·JSON·Word(docx)·PDF；排版对齐 DeepSeek 原生样式，自动清除全部 Emoji；每条回答旁可单独导出这一轮（含提问），DeepSeek 配色现代界面。（离线版：已内联 marked，无需 jsDelivr/CDN）
 // @description:en  API-level extraction, plain-text copy, multi-format download (true .docx), DeepSeek-native typography, emoji stripped, per-message export.
 // @author       xubbllanan-lab
@@ -16,8 +16,8 @@
 // @grant        GM_setClipboard
 // @grant        GM_addStyle
 // @grant        unsafeWindow
-// @updateURL    https://cdn.jsdelivr.net/gh/xubbllanan-lab/deepseek-export-assistant@main/deepseek-export.meta.js
-// @downloadURL  https://cdn.jsdelivr.net/gh/xubbllanan-lab/deepseek-export-assistant@main/deepseek-export.user.js
+// @updateURL    https://raw.githubusercontent.com/xubbllanan-lab/deepseek-export-assistant/main/deepseek-export.meta.js
+// @downloadURL  https://raw.githubusercontent.com/xubbllanan-lab/deepseek-export-assistant/main/deepseek-export.user.js
 // @run-at       document-start
 // @noframes
 // ==/UserScript==
@@ -35,7 +35,7 @@
 (function () {
   'use strict';
 
-  const SCRIPT_VERSION = '5.7.10';
+  const SCRIPT_VERSION = '5.7.11';
 
   /* ============================================================
    * 0. 选择器
