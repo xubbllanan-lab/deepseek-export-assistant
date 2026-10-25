@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{width:1200px;height:628px;font-family:-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    background:linear-gradient(135deg,#0f1830 0%,#1e2f66 45%,#2f4bd8 100%);overflow:hidden;position:relative}
+  .glow{position:absolute;border-radius:50%;filter:blur(80px);opacity:.5}
+  .g1{width:520px;height:520px;background:#4d6bfe;top:-180px;right:-120px}
+  .g2{width:420px;height:420px;background:#22d3ee;bottom:-200px;left:-100px;opacity:.28}
+  .wrap{position:relative;z-index:2;padding:56px 60px;height:100%;display:flex;flex-direction:column}
+  .tag{display:inline-flex;align-items:center;gap:8px;align-self:flex-start;
+    background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.26);color:#dbe4ff;
+    font-size:15px;font-weight:600;padding:8px 18px;border-radius:999px;backdrop-filter:blur(10px)}
+  h1{color:#fff;font-size:54px;font-weight:800;letter-spacing:-1.5px;line-height:1.16;margin:26px 0 0;
+    text-shadow:0 3px 20px rgba(0,0,0,.3)}
+  h1 em{font-style:normal;color:#7ee3c4;text-shadow:0 0 26px rgba(126,227,196,.42),0 3px 20px rgba(0,0,0,.3)}
+  .sub{color:#d3dcff;font-size:20px;margin:18px 0 0;line-height:1.55;max-width:640px}
+  .pills{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 0}
+  .pill{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.2);color:#e6ecff;
+    font-size:14.5px;font-weight:600;padding:8px 15px;border-radius:9px}
+  .pill.key{background:rgba(126,227,196,.2);border-color:rgba(126,227,196,.5);color:#b5f5e0}
+  .foot{margin-top:auto;display:flex;align-items:center;gap:16px;
+    background:rgba(10,18,40,.42);border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:14px 20px;
+    width:max-content;max-width:100%;backdrop-filter:blur(12px)}
+  .foot .ico{width:38px;height:38px;border-radius:10px;background:linear-gradient(135deg,#4d6bfe,#2f4bd8);
+    display:flex;align-items:center;justify-content:center;font-size:19px;flex:none}
+  .foot .txt{font-size:14.5px;color:#dfe6ff;line-height:1.5}
+  .foot .txt b{color:#fff;font-size:16px;display:block;font-weight:700}
+  .foot .txt code{color:#8ef0d2;background:rgba(126,227,196,.12);padding:1px 6px;border-radius:5px;
+    font-size:13px;font-family:Consolas,monospace}
+  .badge{position:absolute;right:52px;bottom:44px;z-index:2;text-align:center;color:rgba(255,255,255,.5);
+    font-size:12.5px;letter-spacing:.4px;line-height:1.7}
+</style>
+</head>
+<body>
+  <div class="glow g1"></div><div class="glow g2"></div>
+  <div class="wrap">
+    <div class="tag">🛠️ 油猴脚本 · 开源免费</div>
+    <h1>DeepSeek 对话<br><em>一键导出</em>，格式不乱</h1>
+    <div class="sub">接口级提取，提问内容 100% 准确 · 保留标题层级、代码块与表格</div>
+    <div class="pills">
+      <div class="pill key">复制纯文本</div>
+      <div class="pill key">复制富文本</div>
+      <div class="pill">Word / PDF</div>
+      <div class="pill">Markdown</div>
+      <div class="pill">JSON / HTML</div>
+      <div class="pill">单条导出</div>
+      <div class="pill">自动清除 Emoji</div>
+    </div>
+    <div class="foot">
+      <div class="ico">⬇</div>
+      <div class="txt">
+        <b>30 秒安装 · 全程本地运行，不上传任何数据</b>
+        装 Tampermonkey 后打开 <code>raw.githubusercontent.com/xubbllanan-lab/deepseek-export-assistant</code>
+      </div>
+    </div>
+  </div>
+  <div class="badge">MIT License<br>xubbllanan-lab</div>
+</body>
+</html>
