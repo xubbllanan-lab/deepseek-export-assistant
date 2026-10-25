@@ -96,5 +96,4 @@ DeepSeek 自带的复制会把 Markdown 符号、表格边框、emoji 一起带�
 
 ## 相关链接
 
-- 源码 Gist（历史版本）：https://gist.github.com/xubbllanan-lab/1e8d79f78441169d1b1a18289d641b2f
 - 问题反馈与新需求：提交 [Issue](https://github.com/xubbllanan-lab/deepseek-export-assistant/issues)
