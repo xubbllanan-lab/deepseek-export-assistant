@@ -58,6 +58,13 @@ DeepSeek 自带的复制会把 Markdown 符号、表格边框、emoji 一起带�
 ![界面截图](assets/screenshot.png)
 
 <details>
+<summary>宣传图（点击展开）</summary>
+
+![宣传图](assets/poster.png)
+
+</details>
+
+<details>
 <summary>其他排版样式示例</summary>
 
 **商务报告风格**
