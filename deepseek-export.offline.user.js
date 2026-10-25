@@ -16,8 +16,8 @@
 // @grant        GM_setClipboard
 // @grant        GM_addStyle
 // @grant        unsafeWindow
-// @updateURL    https://raw.githubusercontent.com/xubbllanan-lab/deepseek-export-assistant/main/deepseek-export.meta.js
-// @downloadURL  https://raw.githubusercontent.com/xubbllanan-lab/deepseek-export-assistant/main/deepseek-export.user.js
+// @updateURL    https://cdn.jsdelivr.net/gh/xubbllanan-lab/deepseek-export-assistant@main/deepseek-export.meta.js
+// @downloadURL  https://cdn.jsdelivr.net/gh/xubbllanan-lab/deepseek-export-assistant@main/deepseek-export.user.js
 // @run-at       document-start
 // @noframes
 // ==/UserScript==

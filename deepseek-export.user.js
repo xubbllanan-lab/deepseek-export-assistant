@@ -17,8 +17,8 @@
 // @grant        GM_addStyle
 // @grant        unsafeWindow
 // @require      https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js
-// @updateURL    https://raw.githubusercontent.com/xubbllanan-lab/deepseek-export-assistant/main/deepseek-export.meta.js
-// @downloadURL  https://raw.githubusercontent.com/xubbllanan-lab/deepseek-export-assistant/main/deepseek-export.user.js
+// @updateURL    https://cdn.jsdelivr.net/gh/xubbllanan-lab/deepseek-export-assistant@main/deepseek-export.meta.js
+// @downloadURL  https://cdn.jsdelivr.net/gh/xubbllanan-lab/deepseek-export-assistant@main/deepseek-export.user.js
 // @run-at       document-start
 // @noframes
 // ==/UserScript==
