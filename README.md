@@ -24,7 +24,7 @@ DeepSeek 自带的复制会把 Markdown 符号、表格边框、emoji 一起带�
 
 | 渠道 | 地址 | 说明 |
 |---|---|---|
-| **GitHub Raw** | [一键安装](https://raw.githubusercontent.com/xubbllanan-lab/deepseek-export-assistant/main/deepseek-export.user.js) | 官方源，指向最新版 |
+| **GitHub Raw** | [一键安装](https://cdn.jsdelivr.net/gh/xubbllanan-lab/deepseek-export-assistant@main/deepseek-export.user.js) | 官方源，指向最新版 |
 | **OpenUserJS** | [脚本页](#) | 油猴生态，可搜索、可评分 |
 | **GreasyFork** | [脚本页](#) | 全球油猴用户主站 |
 
@@ -38,7 +38,7 @@ DeepSeek 自带的复制会把 Markdown 符号、表格边框、emoji 一起带�
 2. 点击下方链接，油猴会自动弹出安装提示，点「安装」：
 
    ```
-   https://raw.githubusercontent.com/xubbllanan-lab/deepseek-export-assistant/main/deepseek-export.user.js
+   https://cdn.jsdelivr.net/gh/xubbllanan-lab/deepseek-export-assistant@main/deepseek-export.user.js
    ```
 
 3. 访问 [chat.deepseek.com](https://chat.deepseek.com)，右下角出现「DeepSeek 导出助手」按钮即安装成功。
@@ -51,8 +51,8 @@ DeepSeek 自带的复制会把 Markdown 符号、表格边框、emoji 一起带�
 
 | 文件 | 说明 |
 |---|---|
-| [`deepseek-export.user.js`](https://raw.githubusercontent.com/xubbllanan-lab/deepseek-export-assistant/main/deepseek-export.user.js) | **标准版**（推荐）体积小，Markdown 渲染库走 CDN |
-| [`deepseek-export.offline.user.js`](https://raw.githubusercontent.com/xubbllanan-lab/deepseek-export-assistant/main/deepseek-export.offline.user.js) | **离线版** 渲染库已内联，零外部依赖，国内网络稳定 |
+| [`deepseek-export.user.js`](https://cdn.jsdelivr.net/gh/xubbllanan-lab/deepseek-export-assistant@main/deepseek-export.user.js) | **标准版**（推荐）体积小，Markdown 渲染库走 CDN |
+| [`deepseek-export.offline.user.js`](https://cdn.jsdelivr.net/gh/xubbllanan-lab/deepseek-export-assistant@main/deepseek-export.offline.user.js) | **离线版** 渲染库已内联，零外部依赖，国内网络稳定 |
 
 > 首次安装标准版后，渲染库从 jsDelivr CDN 加载；若网络受限导致排版异常，换装离线版即可。
 
