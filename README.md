@@ -20,6 +20,16 @@ DeepSeek 自带的复制会把 Markdown 符号、表格边框、emoji 一起带�
 | 自动清除 Emoji | 导出内容干净，适合直接使用 |
 | 多种排版样式 | 商务报告 / 学位论文 / 科技论文 / 现代简洁，导出前可切换 |
 
+## 安装渠道
+
+| 渠道 | 地址 | 说明 |
+|---|---|---|
+| **GitHub Raw** | [一键安装](https://raw.githubusercontent.com/xubbllanan-lab/deepseek-export-assistant/main/deepseek-export.user.js) | 官方源，指向最新版 |
+| **OpenUserJS** | [脚本页](#) | 油猴生态，可搜索、可评分 |
+| **GreasyFork** | [脚本页](#) | 全球油猴用户主站 |
+
+> 在油猴脚本平台搜索时，直接搜「DeepSeek 对话导出助手」即可找到。
+
 ## 安装
 
 ### 方式一：一键安装（推荐）
